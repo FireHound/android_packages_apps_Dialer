@@ -27,12 +27,14 @@
     This is especially valuable for views without textual representation like ImageView.
 
     [CHAR LIMIT=NONE] -->
+  <string name="dialerIconLabel">Teléfonu</string>
   <!-- The description text for the call log tab.
 
     Note: AccessibilityServices use this attribute to announce what the view represents.
     This is especially valuable for views without textual representation like ImageView.
 
     [CHAR LIMIT=NONE] -->
+  <string name="callHistoryIconLabel">Historial de llamaes</string>
   <!-- Text for a menu item to report a call as having been incorrectly identified. [CHAR LIMIT=48] -->
   <!-- Option displayed in context menu to copy long pressed phone number. [CHAR LIMIT=48] -->
   <!-- Option displayed in context menu to copy long pressed voicemail transcription. [CHAR LIMIT=48] -->
@@ -44,6 +46,7 @@
   <!-- Menu item in call details used to remove a call or voicemail from the call log. -->
   <!-- Label for action to edit a number before calling it. [CHAR LIMIT=48] -->
   <!-- Menu item used to remove all calls from the call log -->
+  <string name="call_log_delete_all">Llimpiar historial de llamaes</string>
   <!-- Menu item used to delete a voicemail. [CHAR LIMIT=30] -->
   <!-- Menu item used to archive a voicemail. [CHAR LIMIT=30] -->
   <!-- Menu item used to send a voicemail through other applications [CHAR LIMIT=30] -->
@@ -52,8 +55,10 @@
   <!-- Text for undo button in snackbar for voicemail deletion. [CHAR LIMIT=10] -->
   <!-- Text for going to archive button in snackbar for voicemail archive. [CHAR LIMIT=10] -->
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
+  <string name="clearCallLogConfirmation_title">¿Llimpiar historial de llamaes?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
   <!-- Title of the "Clearing call log" progress-dialog [CHAR LIMIT=35] -->
+  <string name="clearCallLogProgress_title">Llimpiando historial de llamaes\u2026</string>
   <!-- Title used for the activity for placing a call. This name appears
          in activity disambig dialogs -->
   <!-- Notification strings -->
@@ -90,6 +95,7 @@
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
   <!-- Promo card text for visual voicemail. -->
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
+  <string name="visual_voicemail_settings">Axustes</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -100,6 +106,7 @@
     visual voicemail. [CHAR LIMIT=64] -->
   <!--  Voicemail status message shown at the top of call details screen to notify the user that
     the audio of this voicemail is not available. [CHAR LIMIT=64] -->
+  <string name="voicemail_status_audio_not_available">Audiu non disponible</string>
   <!--  User action prompt shown next to a voicemail status message to let the user configure
     visual voicemail. [CHAR LIMIT=20] -->
   <!--  User action prompt shown next to a voicemail status message to let the user call voicemail
@@ -147,6 +154,7 @@
          This should be same as the description for the real action menu
          overflow button available in ActionBar.
          [CHAR LIMIT=NONE] -->
+  <string name="action_menu_overflow_description" msgid="2295659037509008453">Más opciones</string>
   <!-- Content description for the button that displays the dialpad
          [CHAR LIMIT=NONE] -->
   <!-- Menu item used to show only outgoing in the call log. [CHAR LIMIT=30] -->
@@ -156,6 +164,7 @@
   <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
   <!-- Menu items for dialpad options as part of Pause and Wait ftr [CHAR LIMIT=30] -->
   <!-- Label for the dialer app setting page [CHAR LIMIT=30]-->
+  <string name="dialer_settings_label">Axustes</string>
   <!-- Menu item to create a new contact [CHAR LIMIT=30] -->
   <!-- Menu item to display all contacts [CHAR LIMIT=30] -->
   <!-- Title bar for call detail screen -->
@@ -234,6 +243,7 @@
   <!-- The string 'Today'. This value is used in the voicemailCallLogDateTimeFormat rather than an
          explicit date string, e.g. Jul 25, 2014, in the event that a voicemail was created on the
          current day -->
+  <string name="voicemailCallLogToday">@string/call_log_header_today</string>
   <!-- A format string used for displaying the date and time for a voicemail call log. For example: Jul 25, 2014 at 2:49 PM
          The date will be replaced by 'Today' for voicemails created on the current day. For example: Today at 2:49 PM -->
   <!-- Format for duration of voicemails which are displayed when viewing voicemail logs. For example "01:22" -->
@@ -262,8 +272,10 @@
          [CHAR LIMIT=45] -->
   <!-- String resource for the font-family to use for the call log activity's title
          Do not translate. -->
+  <string name="call_log_activity_title_font_family">sans-serif-light</string>
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
+  <string name="view_full_call_history_font_family">sans-serif</string>
   <!-- Text displayed when the call log is empty. -->
   <!-- Label of the button displayed when the call history is empty. Allows the user to make a call. -->
   <!-- Text displayed when the list of missed calls is empty -->
@@ -282,6 +294,7 @@
   <!-- Body text for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
   <!-- Positive confirmation button for the dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
   <!-- Do not translate -->
+  <string name="migrate_blocked_numbers_dialog_cancel_button">\@android:string/cancel</string>
   <!-- Confirmation dialog title for blocking a number. [CHAR LIMIT=NONE] -->
   <!-- Confirmation dialog message for blocking a number with visual voicemail active.
          [CHAR LIMIT=NONE] -->
@@ -305,6 +318,7 @@
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
+  <string name="search_shortcut_send_sms_message">Unviar SMS</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <!-- Shortcut item used to block a number directly from search. [CHAR LIMIT=25] -->
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
@@ -317,6 +331,7 @@
          [CHAR LIMIT=NONE]
     -->
   <!-- Remove button that shows up when contact is long-pressed. [CHAR LIMIT=NONE] -->
+  <string name="remove_contact">Desaniciar</string>
   <!-- Button text for the "video call" displayed underneath an entry in the call log.
          Tapping causes a video call to be placed to the caller represented by the call log entry.
          [CHAR LIMIT=30] -->
@@ -331,9 +346,11 @@
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
+  <string name="description_incoming_missed_call">Llamada perdida de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
   <!-- String describing an incoming answered call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
+  <string name="description_incoming_answered_call">Llamada contestada de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>, <xliff:g id="typeOrLocation" example="Mobile">^2</xliff:g>, <xliff:g id="timeOfCall" example="2 min ago">^3</xliff:g>, <xliff:g id="phoneAccount" example="on SIM 1">^4</xliff:g>.</string>
   <!-- String describing an "unread" voicemail entry in the voicemails tab.
          Note: AccessibilityServices use this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
@@ -436,18 +453,28 @@
          [CHAR LIMIT=40] -->
   <!-- Title for the "Sounds and vibration" settings control settings related to ringtones,
          dialpad tones, and vibration for incoming calls. [CHAR LIMIT=40] -->
+  <string name="sounds_and_vibration_title">Soníos y vibración</string>
   <!-- Title for "Accessibility" category, which controls settings such as TTY mode and hearing
          aid compatability. [CHAR LIMIT=40] -->
+  <string name="accessibility_settings_title">Accesibilidá</string>
   <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
+  <string name="ringtone_title">Timbre del teléfonu</string>
   <!-- Setting option name to enable or disable vibration when ringing the phone.
          [CHAR LIMIT=30] -->
   <!-- Setting option name to enable or disable DTMF tone sound [CHAR LIMIT=30] -->
+  <string name="dtmf_tone_enable_title">Tonos del tecláu numbéricu</string>
   <!-- Label for setting to adjust the length of DTMF tone sounds. [CHAR LIMIT=40] -->
   <!-- Options displayed for the length of DTMF tone sounds. [CHAR LIMIT=40] -->
+  <string-array name="dtmf_tone_length_entries">
+    <item>Normal</item>
+    <item>Long</item>
+  </string-array>
   <!-- Do not translate. -->
   <!-- Title of settings screen for managing the "Respond via SMS" feature. [CHAR LIMIT=30] -->
   <!-- Label for the call settings section [CHAR LIMIT=30] -->
+  <string name="call_settings_label">Llamaes</string>
   <!-- Label for the blocked numbers settings section [CHAR LIMIT=30] -->
+  <string name="manage_blocked_numbers_label">Bloquéu de llamaes</string>
   <!-- Label for a section describing that call blocking is temporarily disabled because an
          emergency call was made. [CHAR LIMIT=50] -->
   <!-- Description that call blocking is temporarily disabled because the user called an
@@ -473,6 +500,7 @@
   <!-- Footer message of number blocking screen with no visual voicemail.
          [CHAR LIMIT=NONE] -->
   <!-- Heading for the block list in the "Spam and blocked cal)ls" settings. [CHAR LIMIT=64] -->
+  <string name="block_list">Númberos bloquiaos</string>
   <!-- Error message shown when user tries to add invalid number to the block list.
         [CHAR LIMIT=64] -->
   <!-- Error message shown when user tries to add a number to the block list that was already

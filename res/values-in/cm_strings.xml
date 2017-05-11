@@ -88,6 +88,7 @@
   <string name="speed_dial_unassigned_dialog_message">Tidak ada tindakan panggilan cepat ditetapkan untuk tombol angka \'<xliff:g id="number">%s</xliff:g>\'. Apakah Anda ingin menentukan sebuah tindakan sekarang?</string>
   <string name="dialog_speed_dial_airplane_mode_message">Untuk menggunakan panggilan cepat, matikan mode pesawat terlebih dahulu</string>
   <!-- Speed Dial can not be set for the key used for Emergency number-->
+  <string name="speed_dial_can_not_be_set">Panggilan cepat tidak dapat ditetapkan untuk kunci ini</string>
   <string name="yes">Ya</string>
   <string name="no">Tidak</string>
   <!-- Text displayed when the list of incoming calls is empty -->
@@ -100,6 +101,7 @@
   <string name="clear">Bersihkan</string>
   <string name="description_clear_search">Bersihkan pencarian</string>
   <string name="video_call_welcome_title"><b>Selamat datang di Video Calling Dialer baru</b></string>
+  <string name="video_call_welcome_message_repeat">Selalu tampilkan pesan ini</string>
   <string name="toast_change_video_call_failed">Tidak dapat beralih ke panggilan video, format nomor salah</string>
   <string name="toast_make_video_call_failed">Tidak dapat melakukan panggilan video, format nomor salah</string>
   <!-- Add for enhance videocall ui -->
@@ -120,11 +122,15 @@
   <!-- Title for outgoing 4G voice call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for incoming 4G video call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for missed 4G voice call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_volte">Panggilan suara 4G tak terjawab</string>
   <!-- Title for missed 4G video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_video_lte">Panggilan video 4G tak terjawab</string>
   <!-- Title for incoming wifi voice call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for incoming wifi video call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for outgoing wifi voice call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for outgoing wifi video call in call details screen [CHAR LIMIT=60] -->
   <!-- Title for missed wifi voice call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_vowifi">Panggilan suara Wi-Fi tak terjawab</string>
   <!-- Title for missed wifi video call in call details screen [CHAR LIMIT=60] -->
+  <string name="type_missed_video_wifi">Panggilan video Wi-Fi tidak terjawab</string>
 </resources>
